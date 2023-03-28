@@ -13,7 +13,7 @@ links = {
 
 def homepage():
 
-    col1, col2 = st.columns(2, gap='large')
+    col1, col2 = st.columns(2, gap='small')
     with col1:
         st.image(Image.open('assets/orange2.png'), width=230)
     with col2:
@@ -34,9 +34,13 @@ def homepage():
     st.subheader("Who am i?")
 
     st.write("""
-        - Student of Computer Science at Dedan Kimathi University of Technology.
 
-        - Co-Founder and President of Data Science and Artificial Intelligence Club.
+        As a highly skilled and motivated Tech bro, I have always been passionate about technology and its potential to change the world, especially through the vast amounts of data produced each day. With some experience in the tech industry, I have honed my skills in programming, leveraging data and Machine Learning Techniques. I am eager to take on new challenges and continue to innovate in this fast-paced and constantly evolving field. Whether working independently or as part of a team, I am committed to delivering quality that exceed expectations and drive business success. With a strong desire to keep learning and growing, I am confident that I can make a valuable contribution to any team demanding top talent.
+
+        ###### I am Also:
+        - A student of Computer Science at Dedan Kimathi University of Technology.
+
+        - Co-Founder and President of Data Science and Artificial Intelligence Club (DSAIC) in mentioned University.
 
         - Contributor and managing team member of Computer Society of Kimathi.
 
@@ -53,23 +57,30 @@ def homepage():
        """
        Basically everything Involved in a Data Science and ML project.
        ##### Data Science and Machine Learning;
-        - Working with structured (csv and tsv) data and unstructured data like photos and videos.
 
-        - Descriptive, prescriptive, and mostly, Predictive data Analysis.
+        - ⭐ Web scrapping using tools like BeautifulSoup and Selenium.
 
-        - Machine Learning Modelling with Python's extensive library.
+        - ⭐ Working with structured (csv and tsv) data and unstructured data like photos and videos.
 
-        - Deep Learning and Neural Networks with Tensorflow and the Keras API.
+        - ⭐ Descriptive, prescriptive, and mostly, Predictive data Analysis.
 
-        - FastAI for Deep learning tasks uncool again (Their words, not mine).
+        - ⭐ Machine Learning Modelling with Python's extensive library.
 
-        - Data ETL(ish).
+        - ⭐ Deep Learning and Neural Networks with Tensorflow and the Keras API.
+
+        - ⭐ FastAI for making Deep learning tasks uncool again (Their words, not mine).
+
+        - ⭐ Data ETL(ish).
 
        ##### Web Technologies
 
-        - Web APIs with python's Django and FastAPI.
+        - ⭐ Web APIs with python's Django and FastAPI.
 
-        - Streamlit Interfaces, like this site (built Entirely in Python).
+     #####  Databases
+
+        - ⭐ Structured databases(SQL) Postgre, sqlite.
+
+        - ⭐ Streamlit Interfaces, like this site (built Entirely in Python).
 
        """
     )

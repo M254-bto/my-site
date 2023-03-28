@@ -1,12 +1,12 @@
 import streamlit as str
 from streamlit_option_menu import option_menu
-from homepage import homepage
+import homepage, projects, blogs
 
 
 selected = option_menu(
     menu_title=None,
-    options=['Home', 'Projects', 'Blog', 'Contact'],
-    icons=['house-heart', 'code-slash', 'list', 'envelope'],
+    options=['Home', 'Projects', 'Blog'],
+    icons=['house-heart', 'code-slash', 'list'],
     orientation='horizontal',
     styles={
     "nav-link-selected":{
@@ -20,11 +20,8 @@ selected = option_menu(
 
 
 if selected == 'Home':
-    homepage()
+    homepage.homepage()
 if selected == 'Projects':
-    str.write("This is projects")
+    projects.projects()
 if selected == 'Blog':
-    str.write("This is blogs")
-if selected == 'Contact':
-    str.write("Contact")
-
+    blogs.blogs()
