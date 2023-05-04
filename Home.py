@@ -3,6 +3,7 @@ from streamlit_option_menu import option_menu
 import homepage, projects, blogs
 
 
+
 selected = option_menu(
     menu_title=None,
     options=['Home', 'Projects', 'Blog'],
@@ -13,7 +14,7 @@ selected = option_menu(
     "background-color": 'purple'
     },
     "container":{'background-color': 'transparent',
-                 'margin-top': ''
+                
                 },
     }
 )

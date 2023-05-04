@@ -18,7 +18,7 @@ def homepage():
         st.image(Image.open('assets/orange2.png'), width=230)
     with col2:
         st.title("Michael Ngecha")
-        st.write('Data Scientist | Machine Learning | Deep Learning')    
+        st.write('Data Scientist | Machine Learning | Deep Learning | BI analyst')    
 
 
         # ----- links ----#
