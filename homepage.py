@@ -18,7 +18,7 @@ def homepage():
         st.image(Image.open('assets/orange2.png'), width=230)
     with col2:
         st.title("Michael Ngecha")
-        st.write('Data Scientist | Machine Learning | Deep Learning | BI analyst')    
+        st.write('Data Scientist | Machine Learning | Deep Learning | Backend')    
 
 
         # ----- links ----#
@@ -97,6 +97,6 @@ def homepage():
         #### How to reach me?
 
         - Email: ngechamike26@gmail.com
-        - phone(and M-Pesa 😂): +245798159692
+        - phone(and M-Pesa 😂): +245798159691
         """
     )
