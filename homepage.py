@@ -35,8 +35,8 @@ def homepage():
 
     st.write("""
 
-        As a highly skilled and motivated Tech bro, I have always been passionate about technology and its potential to change the world, especially through the vast amounts of data produced each day. With some experience in the tech industry, I have honed my skills in programming, leveraging data and Machine Learning Techniques. I am eager to take on new challenges and continue to innovate in this fast-paced and constantly evolving field. Whether working independently or as part of a team, I am committed to delivering quality that exceed expectations and drive business success. With a strong desire to keep learning and growing, I am confident that I can make a valuable contribution to any team demanding top talent.
-
+       I am a proficient and enthusiastic Data Scientist, I have a strong foundation in Python programming and specialize in Data Science and Machine Learning. I am deeply committed to leveraging the power of data to extract insights that not only fuel business growth but also address different challenges in society. With a solid base in data science, analytics, and Machine Learning technologies, my dedication revolves around delivering innovative solutions that unearth data insights, ultimately empowering and informing decisions.
+       
         ###### I am Also:
         - A student of Computer Science at Dedan Kimathi University of Technology.
 
