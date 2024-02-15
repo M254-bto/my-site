@@ -76,7 +76,7 @@ def homepage():
 
         - ⭐ Web APIs with python's Django and FastAPI.
 
-     #####  Databases
+    
 
         - ⭐ Structured databases(SQL) Postgre, sqlite.
 
@@ -91,6 +91,9 @@ def homepage():
    
     st.write("#")
     st.write("#")
+
+    st.subheader("[IGS Capstone requirements](https://docs.google.com/document/d/1PLBwujrJZ7pWplpQ5MoqLwfIacj-nXkyJKvrboDf4-s/edit?usp=sharing)")
+
 
     st.write(
         """
